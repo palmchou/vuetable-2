@@ -2,6 +2,7 @@ export default {
   table: {
     tableWrapper: '',
     tableHeaderClass: 'fixed',
+    tableHeaderThClass: '',
     tableBodyClass: 'fixed',
     tableClass: 'ui blue selectable unstackable celled table',
     loadingClass: 'loading',

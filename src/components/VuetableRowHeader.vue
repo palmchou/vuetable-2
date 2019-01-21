@@ -75,7 +75,8 @@ export default {
         base + '-' + this.toSnakeCase(field.name),
         field.titleClass || '',
         this.sortClass(field),
-        {'sortable': this.vuetable.isSortable(field)}
+        {'sortable': this.vuetable.isSortable(field)},
+        this.css.tableHeaderThClass
       ]
     },
 
